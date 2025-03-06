@@ -28,9 +28,9 @@ deployAs:
   #         required: true
 
 
-  - name: ct-agent 
+  - name: service
     applicationType: service
-    endpoint: /ct-agent
+    endpoint: /service
     scripts:
       postDeploy: npm install && npm run build && npm run connector:post-deploy
       preUndeploy: npm install && npm run build && npm run connector:pre-undeploy

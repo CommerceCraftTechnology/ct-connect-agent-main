@@ -1,1 +1,0 @@
-export { useChatConnector } from './use-chat-connector'; 
